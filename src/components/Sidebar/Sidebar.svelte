@@ -95,6 +95,13 @@
       label={$t('sidebar.todoList')}
       href="/todo"
     />
+    <SidebarItem
+      on:clicked={close}
+      active={segment === 'combat'}
+      image="/images/calculator.png"
+      label="Combat Workbench"
+      href="/combat"
+    />
     <SidebarMoreItem
       {mobile}
       {segment}

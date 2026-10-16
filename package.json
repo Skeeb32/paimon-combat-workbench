@@ -7,7 +7,8 @@
     "dev": "vite dev --port 3000 --host",
     "build": "NODE_OPTIONS=--max_old_space_size=4096 vite build",
     "preview": "vite preview",
-    "start": "node build"
+    "start": "node build",
+    "test:combat": "node --test tests/combat.test.js"
   },
   "devDependencies": {
     "@mdi/js": "^5.9.55",
